@@ -25,11 +25,15 @@ p {
 }
 
 .mets {
+	
     background: orange;
+	
 }
+
 
 .dodgers {
     background: blue;
+	color: 
 }
 
 .cubs {
@@ -47,3 +51,10 @@ p {
 .table-container {
     background: black;
 }
+.mets ::selection {
+  color: #ffb7b7; /* WebKit/Blink Browsers */
+}
+.mets ::-moz-selection {
+  color: #ffb7b7; /* Gecko Browsers */
+}
+
